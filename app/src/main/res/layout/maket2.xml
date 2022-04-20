@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#43DDF1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/EditText11"
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="text"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="1"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#5012BE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/EditText12"
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="2"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#5012BE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:id="@+id/EditText13"
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="phone"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="3"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#5012BE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/EditText14"
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="number"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="4"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#5012BE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/EditText15"
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="Password"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#5012BE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <EditText
+        android:id="@+id/EditText16"
+        style="@android:style/Widget.Holo.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textEmailAddress"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:text="6"
+        android:textAlignment="viewStart"
+        android:textAllCaps="false"
+        android:textColor="#5012BE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="normal" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="match_parent"
+        android:layout_height="441dp"
+        android:rotationX="33" />
+
+
+</LinearLayout>
